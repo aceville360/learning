@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/sankara.css">
+  <style>
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+
+      # img-caption {
+        font-size: 40px;
+      }
+
+      .center {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="main">
+    <h1 id="title" class="center">Sankara Derrick</h1>
+    <div id="img-div">
+      <div class="row">
+        <div class="column"></div>
+        <div class="column">
+          <img src="images/derrick sankara.jpg" alt="derrick sankara" id="image">
+          <img src="images/der01.jpg" alt="dero1" id="image">
+          <img src="images/der02.jpg" alt="der02" id="image">
+          <img src="images/der03.jpg" alt="der03" id="image">
+        </div>
+        <div class="column">
+          <img src="images/der05.jpg" alt="der05" id="image">
+          <img src="images/der04.jpg" alt="der04" id="image">
+          <img src="images/der06.jpg" alt="der06" id="image">
+          <img src="images/der07.jpg" alt="der07" id="image">
+          <img src="images/der08.jpg" alt="der08" id="image">
+
+        </div>
+        <div class="column"></div>
+      </div>
+      <center>
+        <p id="img-caption" class="center"><em>One of the most promising lawyers</em></p>
+    </div>
+    <div id="tribute-info" class="center">
+
+      <p>
+        <p>
+          Its another Monday here at #Mcm and we have an excuse to praise and obsess about that boy seeming to have it
+          all.
+        </p>
+        <p>
+          Today, the Mcm is Derrick Sankara, a law student at MUK.This half Rwandise muchacho has a lot going for him;
+          from his sultry eyes to his incredible smile and most
+          importantly his astonishing personality.
+        </p>
+        <p>
+          The big time crushing from girls stems from his sense of humor that gives him a lovable charm. His humor is
+          the kind fit for a Will Ferrel movie because his whole personality is based on sarcasm.</p>
+      </p>
+      </p>
+      </center>
+    </div>
+    <div class="center">
+      <a href="https://campusbee.ug/lifestyle/mcm-meet-derrick-sankara-a-law-student-whos-into-farming/" target="blank"
+        id="tribute-link">
+        learn more about Sankara Derrick.
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
